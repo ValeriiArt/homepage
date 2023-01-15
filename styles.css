@@ -95,8 +95,7 @@ body {
       justify-content: center;
   }
 
-  .contact-info__item, 
-  .experiences__company-project-link {
+  .contact-info__item {
       color: var(--secondary-text-color);
       text-decoration: none;
       display: flex;
@@ -225,22 +224,33 @@ body {
       margin-bottom: 25px;
   }
 
+  .experiences__company-project-link {
+      color: var(--text-decoration-color);
+      display: flex;
+      justify-content: start;
+  }
+
+  
   .experiences__company-project-role {
       color: var(--durability-text-color);
       text-align: left;
       margin-bottom: 10px;
       font-size: 15px;
-  }
-
-  .experiences__company-project-name {
-      color: var(--primary-text-color);
-      text-align: left;
-      margin-bottom: 10px;
-  }
-
+    }
+    
+    .experiences__company-project-name {
+        color: var(--primary-text-color);
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    
+    .experiences__company-project-name:hover {
+        color: var(--text-decoration-color);
+    }
   .experiences__company-project-responsibilities {
       color: var(--secondary-text-color);
       padding-left: 20px;
+    list-style: none;
   }
 
   .additional-info {
